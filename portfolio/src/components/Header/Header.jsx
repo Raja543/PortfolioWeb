@@ -46,8 +46,8 @@ const Header = () => {
         </ul>
         <div className="md:flex md:items-center hidden space-x-4">
           <NavLink to="#">
-            <button className="bg-orange max-w-fit text-textwhite font-[Albert-sans] py-2 px-6 rounded-md duration-500">
-              Login
+            <button className="bg-[#EFBF6B]  hover:cursor-pointer px-6 py-2 text-xl font-medium rounded-2xl">
+              Resume
             </button>
           </NavLink>
         </div>
