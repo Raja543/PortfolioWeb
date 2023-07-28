@@ -9,7 +9,6 @@ function App() {
         <Routes>
           <Route path="/" element = {<Home/>} />
         </Routes>
-        <h1 className="font-bold text-2xl">Hello Vite + React!</h1>
       </Router>
     </>
   );

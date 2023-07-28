@@ -73,13 +73,13 @@ const Header = () => {
           <div className="p-4 flex items-center justify-center">
             <ul className="space-y-4 mt-12">
               <NavLink to="#">
-                <li className="text-[#fff] pt-4 pb-2 px-2">About</li>
+                <li className="text-[#fff] pt-4 pb-2 px-2 text-lg">About</li>
               </NavLink>
               <NavLink to="#">
-                <li className="text-[#fff] p-2">Portfolio</li>
+                <li className="text-[#fff] p-2 text-lg">Portfolio</li>
               </NavLink>
               <NavLink to="#">
-                <li className="p-2 text-[#fff]">Contact</li>
+                <li className="p-2 text-[#fff] text-lg">Contact</li>
               </NavLink>
             </ul>
             <button
