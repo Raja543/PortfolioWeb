@@ -1,3 +1,12 @@
+@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Acumin Pro", sans-serif;
+    scroll-behavior: smooth;
+  }
+}

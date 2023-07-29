@@ -3,15 +3,18 @@ import Header from "./components/Header/Header";
 import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <h1> vvvn hv vn j s svsg s</h1>
+      <Hero />
+      <About />
       <Skills />
       <Portfolio />
-     <Footer/>
+      <Footer />
     </div>
   );
 };

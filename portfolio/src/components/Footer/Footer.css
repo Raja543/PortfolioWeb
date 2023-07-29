@@ -1,0 +1,17 @@
+.custom-bg {
+  background: rgb(61, 62, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(61, 62, 66, 1) 50%,
+    rgba(48, 51, 58, 1) 86%
+  );
+}
+
+.custom-bg-2 {
+  background: rgb(48, 51, 58);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 51, 58, 1) 48%,
+    rgba(61, 62, 66, 1) 86%
+  );
+}
