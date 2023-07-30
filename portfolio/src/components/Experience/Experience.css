@@ -1,0 +1,7 @@
+.box-shape {
+  clip-path: polygon(0% 20%, 80% 20%, 100% 50%, 80% 70%, 0% 70%);
+}
+
+.custom-shadow {
+  box-shadow: 0 0 20px 8px #e5b96d;
+}

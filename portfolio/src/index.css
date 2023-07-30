@@ -8,5 +8,15 @@
   html {
     font-family: "Acumin Pro", sans-serif;
     scroll-behavior: smooth;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: transparent;
   }
 }
