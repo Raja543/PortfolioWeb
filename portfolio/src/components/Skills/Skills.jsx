@@ -20,7 +20,7 @@ const Skills = () => {
         <SkillCard image="/assets/javascript.png" title="JavaScript" />
         <SkillCard image="/assets/python.png" title="Python" />
       </div>
-      <div className="hidden md:block absolute bottom-0 right-0 mx-32 ">
+      <div className="hidden lg:block absolute bottom-0 right-0 mx-32 ">
         <DesignCard />
       </div>
     </div>

@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <div className="bg-[#30333A] md:pt-16 " id="contact">
       <div className="bg-[#3D3E42] flex-col justify-center items-center border-[#EFBF6B] border-y-2">
-        <h1 className="text-center custom-bg text-white text-6xl  py-4 px-6 mt-[-50px] max-w-fit m-auto">
+        <h1 className="text-center custom-bg text-white text-4xl lg:text-6xl z-10  py-4 px-6 mt-[-50px] max-w-fit m-auto">
           Contact Me
         </h1>
         <div className="flex flex-col md:flex-row gap-6 items-center justify-center m-4 lg:mx-12 lg:mt-12 mb-4">
