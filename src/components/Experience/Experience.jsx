@@ -5,7 +5,7 @@ import ExpContent from "./ExpContent";
 
 const Experience = () => {
   return (
-    <div className="bg-[#34353A] p-12 lg:p-20">
+    <div className="bg-[#34353A] p-4 pb-20 lg:p-20">
       <h1 className="text-center text-4xl lg:text-6xl font-bold p-8 text-white">
         Experience
       </h1>
