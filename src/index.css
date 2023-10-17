@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/acumin-pro");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    font-family: "Acumin Pro", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
