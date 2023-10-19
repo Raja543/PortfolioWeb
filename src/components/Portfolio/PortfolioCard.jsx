@@ -17,7 +17,7 @@ const PortfolioCard = ({ image, title, para }) => {
       onMouseLeave={handleMouseLeave}
       className=""
     >
-      <img src={image} alt="skill" className="m-auto " />
+      <img src={image} alt="skill" width={400} height={400} className="m-auto " />
       {isHovering && (
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-75 text-white p-4">
           <h2 className="text-3xl font-medium capitalize px-4">{title}</h2>

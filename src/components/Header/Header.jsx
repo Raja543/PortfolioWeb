@@ -26,6 +26,8 @@ const Header = () => {
               className="w-20 cursor-pointer"
               src="/assets/Logo.svg"
               alt="Logo"
+              width={20}
+              height={20}
             />
           </HashLink>
         </div>
@@ -34,18 +36,29 @@ const Header = () => {
             menuOpen ? "block" : "hidden"
           }`}
         >
-          <HashLink to="/#about" smooth={true} duration={300}>
-            <li className=" px-4 text-[#fff]  hover:text-[#EFBF6B] ">
-              About
-            </li>
-          </HashLink>
-          <HashLink to="/#portfolio" smooth={true} duration={300}>
-            <li className="px-4 text-[#fff]  hover:text-[#EFBF6B]">Portfolio</li>
-          </HashLink>
-          <HashLink to="/#contact" smooth={true} duration={300}>
-            <li className="px-4 text-[#fff]  hover:text-[#EFBF6B]">Contact</li>
-          </HashLink>
+          <li>
+            <HashLink to="/#about" smooth={true} duration={300}>
+              <span className="px-4 text-[#fff]  hover:text-[#EFBF6B] ">
+                About
+              </span>
+            </HashLink>
+          </li>
+          <li>
+            <HashLink to="/#portfolio" smooth={true} duration={300}>
+              <span className="px-4 text-[#fff]  hover:text-[#EFBF6B]">
+                Portfolio
+              </span>
+            </HashLink>
+          </li>
+          <li>
+            <HashLink to="/#contact" smooth={true} duration={300}>
+              <span className="px-4 text-[#fff]  hover:text-[#EFBF6B]">
+                Contact
+              </span>
+            </HashLink>
+          </li>
         </ul>
+
         <div className="md:flex md:items-center hidden space-x-4">
           <HashLink to="#">
             <button className="bg-[#EFBF6B]  hover:cursor-pointer px-6 py-2 text-xl font-medium rounded-2xl">
@@ -68,26 +81,34 @@ const Header = () => {
         </div>
         {/* Sidebar Menu */}
         <div
-          className={`fixed md:hidden top-0 right-0 h-full w-48 bg-[#34353A] bg-opacity-70 shadow-lg z-20 transform ease-in-out duration-300 ${
+          className={`fixed md:hidden top-0 right-0 h-full w-60 bg-[#34353A] bg-opacity-70 shadow-lg z-20 transform ease-in-out duration-300 ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           } md:translate-x-0`}
         >
           <div className="p-4 flex items-center justify-center">
             <ul className="space-y-4 mt-12">
-              <HashLink to="/#about" smooth={true} duration={300}>
-                <li className="text-[#fff] pt-8 pb-2 px-2 text-xl ">About</li>
-              </HashLink>
-              <HashLink to="/#portfolio" smooth={true} duration={300}>
-                <li className="text-[#fff] p-2 text-xl">Portfolio</li>
-              </HashLink>
-              <HashLink to="/#contact" smooth={true} duration={300}>
-                <li className="p-2 text-[#fff] text-xl">Contact</li>
-              </HashLink>
-              <HashLink to="#">
-                <button className="bg-[#EFBF6B]  hover:cursor-pointer px-4 py-2  my-2 text-lg font-medium rounded-2xl">
-                  Resume
-                </button>
-              </HashLink>
+              <li className="text-[#fff] pt-8 pb-2 px-2 text-xl">
+                <HashLink to="/#about" smooth={true} duration={300}>
+                  About
+                </HashLink>
+              </li>
+              <li className="text-[#fff] p-2 text-xl">
+                <HashLink to="/#portfolio" smooth={true} duration={300}>
+                  Portfolio
+                </HashLink>
+              </li>
+              <li className="p-2 text-[#fff] text-xl">
+                <HashLink to="/#contact" smooth={true} duration={300}>
+                  Contact
+                </HashLink>
+              </li>
+              <li>
+                <HashLink to="">
+                  <button className="bg-[#EFBF6B]  hover:cursor-pointer px-4 py-2  my-2 text-lg font-medium rounded-2xl">
+                    Resume
+                  </button>
+                </HashLink>
+              </li>
             </ul>
             <button
               onClick={toggleMenu}
@@ -103,3 +124,9 @@ const Header = () => {
 };
 
 export default Header;
+
+{
+  /* <button className="bg-[#EFBF6B]  hover:cursor-pointer px-4 py-2  my-2 text-lg font-medium rounded-2xl">
+Resume
+</button> */
+}

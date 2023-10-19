@@ -5,7 +5,6 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
-// import Experience from "./components/Experience/Experience";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <About />
       <Skills />
       <Portfolio />
-      {/* <Experience />     */}
       <Footer />
     </div>
   );

@@ -23,7 +23,7 @@ const Skills = () => {
         <SkillCard image="/assets/firebase.svg" title="Firebase" />
       </div>
 
-      <div className="my-8">
+      <div className="my-4">
         <p className="text-2xl md:text-3xl font-bold py-6 text-white">
           Backend :
         </p>
@@ -38,7 +38,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="my-8">
+      <div className="my-4">
         <p className="text-2xl md:text-3xl font-bold py-6 text-white">
           Tools :
         </p>

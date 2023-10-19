@@ -4,7 +4,7 @@ import DesignCard from "../DesignCard/DesignCard";
 
 const Portfolio = () => {
   return (
-    <div className="bg-[#30333A] lg:px-24 pb-16 lg:pb-24 relative z-[-10] "id="portfolio" >
+    <div className="bg-[#30333A] lg:px-24 pb-16 lg:py-12 relative z-[-10] "id="portfolio" >
       <h1 className="text-center text-4xl lg:text-6xl font-bold p-4 text-white">
         Portfolio
       </h1>
@@ -49,8 +49,8 @@ const Portfolio = () => {
       <div className="hidden md:block absolute top-0 right-0 mx-32 ">
         <DesignCard />
       </div>
-      <div className="flex justify-center items-center">
-        <button className="bg-[#EFBF6B] hover:cursor-pointer px-6 md:px-8 py-4 my-4 md:text-2xl font-bold rounded-2xl">
+      <div className="flex justify-center items-center ">
+        <button className="bg-[#EFBF6B] cursor-pointer px-6 md:px-8 py-4 my-4 md:text-2xl font-bold rounded-2xl">
           View More
         </button>
       </div>
